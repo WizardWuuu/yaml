@@ -227,7 +227,7 @@ var marshalTests = []struct {
 			A float64 "a,omitempty"
 			B float64 "b,omitempty"
 		}{1, 0},
-		"a: 1\n",
+		"a: 1.0\n",
 	},
 	{
 		&struct {
